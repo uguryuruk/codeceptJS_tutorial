@@ -1,0 +1,24 @@
+{
+  "name": "codeceptjs_tutorial",
+  "version": "1.0.0",
+  "description": "CodeceptJS test automation tutorial based on POM. There is a video tutorial as well.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uguryuruk/codeceptJS_tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uguryuruk/codeceptJS_tutorial/issues"
+  },
+  "homepage": "https://github.com/uguryuruk/codeceptJS_tutorial#readme",
+  "devDependencies": {
+    "codeceptjs": "^3.3.5",
+    "playwright": "1.18"
+  }
+}
