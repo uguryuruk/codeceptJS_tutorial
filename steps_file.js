@@ -9,6 +9,10 @@ module.exports = function() {
       this.amOnPage("Account/Login");
       this.waitForElement("#panelInfoModal",20);
       this.click("Anladım");
+    },
+    gotoSignup:function () {
+      this.click('#kt_login_signup');
+      this.wait(2);
     }
   });
 }

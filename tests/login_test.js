@@ -18,7 +18,7 @@ Scenario("wrong user", ({ I }) => {
 
     loginPage.fillLoginFields(falseLoginUser);
     loginPage.tryLogin();    
-    I.waitForElement(loginPage.errorMessage.class);
+    I.waitForElement(loginPage.errorMessage.class,10);
     I.see(loginPage.errorMessage.text);
     // pause();
 
@@ -27,7 +27,7 @@ Scenario("empty username", ({ I }) => {
 
     loginPage.fillLoginFields(emptyNameLoginUser);
     loginPage.tryLogin();    
-    I.waitForElement(loginPage.errorMessage.class);
+    I.waitForElement(loginPage.errorMessage.class,10);
     I.see(loginPage.errorMessage.text);
     // pause();
 
@@ -36,7 +36,7 @@ Scenario("empty password", ({ I }) => {
 
     loginPage.fillLoginFields(emptyPasswordLoginUser);
     loginPage.tryLogin();    
-    I.waitForElement(loginPage.errorMessage.class);
+    I.waitForElement(loginPage.errorMessage.class,10);
     I.see(loginPage.errorMessage.text);
     // pause();
 

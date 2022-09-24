@@ -10,7 +10,8 @@ exports.config = {
     }
   },
   include: {
-    I: './steps_file.js'
+    I: './steps_file.js',
+    signupPage: './pages/signup.js',
   },
   name: 'codeceptJS_tutorial'
 }
