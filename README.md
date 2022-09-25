@@ -6,7 +6,7 @@ CodeceptJS test automation tutorial based on POM. There is a video tutorial as w
 This repo has two page objects and test files. Our test web site url is https://www.turkiyemezunlari.gov.tr/Account/Login . We are testing four negative cases in each test file.
 
 ## Video Tutorial
-Watch on [Youtube](youtube.com)
+Watch on [Youtube](https://www.youtube.com/watch?v=ikzgygsnTs8&t=581s&ab_channel=YuruktheDeveloper)
 
 ## How to Run
 
