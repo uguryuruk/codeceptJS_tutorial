@@ -15,4 +15,18 @@ Watch on [Youtube](https://www.youtube.com/watch?v=ikzgygsnTs8&t=581s&ab_channel
 * To run login tests: npx codeceptjs run --grep "login"
 * To run signup tests: npx codeceptjs run --grep "signup"
 
+## BUSINESS RULES
+(bold points are done in the tutorial)
+### LOGIN SCREEN
+* **User have to fill the required form inputs**.
+* **User shall not pass whether username is empty or wrong**
+* **User shall not pass whether password is empty or wrong**
+* User shall not pass if username exist but password is wrong
+### SIGNUP SCREEN
+* **User have to fill the required form inputs.**
+* **User have to check GDPR checkbox.**
+* User have to check “I certify that my information is true”.
+* User can view the GDPR text.
+* Two passwords should match
+* User have to select one of the credential types and then enter an id number
 
